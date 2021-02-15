@@ -8,11 +8,9 @@ public class Main {
 
         if (hour == 12) {
             System.out.println("It's time for lunch");
-        }
-        else if (hour >= 8 && hour <= 16) {
+        } else if (hour >= 8 && hour <= 16) {
             System.out.println("You are at work");
-        }
-        else {
+        } else {
             System.out.println("You are at home");
         }
 
